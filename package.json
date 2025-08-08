@@ -1,0 +1,8 @@
+{
+  "name": "amocrm-webhook-simple",
+  "version": "1.0.0",
+  "description": "Simple webhook for AmoCRM integration",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
