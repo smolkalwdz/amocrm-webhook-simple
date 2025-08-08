@@ -1,14 +1,3 @@
 {
-  "version": 2,
-  "functions": {
-    "webhook.js": {
-      "maxDuration": 30
-    }
-  },
-  "routes": [
-    {
-      "src": "/webhook",
-      "dest": "/webhook.js"
-    }
-  ]
+  "version": 2
 }
