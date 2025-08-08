@@ -1,19 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "*.js",
-      "use": "@vercel/node"
+  "functions": {
+    "amo-webhook.js": {
+      "maxDuration": 30
     }
-  ],
-  "routes": [
-    {
-      "src": "/amo-webhook",
-      "dest": "/amo-webhook.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.js"
-    }
-  ]
+  }
 }
