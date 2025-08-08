@@ -8,6 +8,10 @@
   ],
   "routes": [
     {
+      "src": "/amo-webhook",
+      "dest": "/amo-webhook.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.js"
     }
